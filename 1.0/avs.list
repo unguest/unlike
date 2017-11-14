@@ -1,4 +1,4 @@
-AAWTray.exe
+  AAWTray.exe
   Ad-Aware.exe
   MSASCui.exe
   _avp32.exe
@@ -37,12 +37,14 @@ AAWTray.exe
   avgcc32.exe
   avgctrl.exe
   avgemc.exe
+  AVGIDSAgent.exe
   avgnt.exe
   avgrsx.exe
   avgserv.exe
   avgserv9.exe
   avguard.exe
   avgw.exe
+  avgwd.exe
   avkpop.exe
   avkserv.exe
   avkservice.exe
