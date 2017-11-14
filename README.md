@@ -18,3 +18,5 @@ I'm currently developping an "As Is" version but soon, I'll put a version with m
 - [x] A typical "Folder Blasting" function
 
 - [x] A very little AV disabler
+
+- [x] A firewall disabler
