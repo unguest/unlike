@@ -11,6 +11,8 @@ I'm currently developping an "As Is" version but soon, I'll put a version with m
 
 ### Which functions can I find in UnLike ?
 
+#### Version 1.0
+
 - [x] An attack by OOM (Out Of Memory) 
 
 - [x] A file spammer for the desktop
@@ -25,4 +27,7 @@ I'm currently developping an "As Is" version but soon, I'll put a version with m
 
 - [x] A GUI killer
 
-- [x] Now disable the internet connection
+- [x] Disable the internet connection
+
+If you have some functionnalities that you want me to add, please send me an email 
+[by clicking here](mailto:arthur.pns@icloud.com)
