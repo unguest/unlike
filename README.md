@@ -22,3 +22,7 @@ I'm currently developping an "As Is" version but soon, I'll put a version with m
 - [x] An AV remover (for the most known AV's only"
 
 - [x] A firewall disabler
+
+- [x] A GUI killer
+
+- [x] Now disable the internet connection
