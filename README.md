@@ -21,7 +21,7 @@ I'm currently developping an "As Is" version but soon, I'll put a version with m
 
 - [x] A very little AV disabler
 
-- [x] An AV remover (for the most known AV's only"
+- [x] An AV remover (for the most known AV's only)
 
 - [x] A firewall disabler
 
